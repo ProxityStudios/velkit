@@ -1,5 +1,11 @@
 # @velkit/cli
 
+## 2.0.0
+
+### Major Changes
+
+- ccd9977: Fixes some issues
+
 ## 1.1.0
 
 ### Minor Changes
