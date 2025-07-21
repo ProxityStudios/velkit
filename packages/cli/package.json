@@ -1,7 +1,7 @@
 {
   "name": "velkit",
   "description": "Velkit is a CLI tool that lets you to clone repositories faster and comes with additinional features.",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "author": "Proxity Studios",
   "license": "MIT",
   "homepage": "https://github.com/ProxityStudios/velkit/blob/main/README.md",
@@ -59,7 +59,7 @@
   },
   "devDependencies": {
     "@types/node": "24.0.7",
-  	"@velkit/typescript-config": "workspace:*",
+    "@velkit/typescript-config": "workspace:*",
     "ts-node": "^10.9.2",
     "typescript": "5.5.4"
   },
