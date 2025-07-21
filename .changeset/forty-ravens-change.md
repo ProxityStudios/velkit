@@ -1,5 +1,5 @@
 ---
-"@velkit/cli": major
+"@velkit/cli": minor
 ---
 
 Fixes some issues
