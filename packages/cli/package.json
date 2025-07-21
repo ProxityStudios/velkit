@@ -1,5 +1,5 @@
 {
-  "name": "velkit",
+  "name": "@velkit/cli",
   "description": "Velkit is a CLI tool that lets you to clone repositories faster and comes with additinional features.",
   "version": "1.0.0",
   "author": "Proxity Studios",
