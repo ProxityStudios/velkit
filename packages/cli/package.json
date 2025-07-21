@@ -1,7 +1,7 @@
 {
   "name": "@velkit/cli",
   "description": "Velkit is a CLI tool that lets you to clone repositories faster and comes with additinional features.",
-  "version": "1.1.0",
+  "version": "0.0.0",
   "author": "Proxity Studios",
   "license": "MIT",
   "homepage": "https://github.com/ProxityStudios/velkit/blob/main/README.md",
@@ -21,6 +21,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ProxityStudios/velkit.git"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "files": [
     "/bin",
