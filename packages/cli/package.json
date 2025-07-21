@@ -42,7 +42,7 @@
   },
   "oclif": {
     "bin": "velkit",
-    "commands": "./src/commands",
+    "commands": "./dist/commands",
     "dirname": "velkit",
     "plugins": [
       "@oclif/plugin-help",
