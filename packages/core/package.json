@@ -1,6 +1,6 @@
 {
   "name": "@velkit/core",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "",
   "main": "./dist/index.js",
   "exports": "./dist/index.js",
@@ -27,7 +27,7 @@
     "@jest/globals": "^30.0.4",
     "jest": "^30.0.4",
     "ts-jest": "^29.4.0",
-  	"@velkit/typescript-config": "workspace:*",
+    "@velkit/typescript-config": "workspace:*",
     "typescript": "^5.8.3"
   },
   "dependencies": {
