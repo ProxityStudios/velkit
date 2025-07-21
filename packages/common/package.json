@@ -1,0 +1,28 @@
+{
+  "name": "@velkit/common",
+  "version": "0.0.0",
+  "description": "",
+  "exports": "./dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "dev": "tsc --watch --preserveWatchOutput",
+    "build": "tsc --project tsconfig.json",
+    "check-types": "tsc --noEmit --project tsconfig.json"
+  },
+  "keywords": [],
+   "publishConfig": {
+    "access": "public"
+  },
+  "author": "Proxity Studios",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "latest",
+  	"@velkit/typescript-config": "workspace:*"
+  },
+  "dependencies": {}
+}

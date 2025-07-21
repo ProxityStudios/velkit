@@ -1,0 +1,26 @@
+{
+  "name": "velkit",
+  "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "release": "pnpm run build && changeset publish",
+    "dev": "turbo run dev",
+    "test": "turbo run test",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "check-types": "turbo run check-types",
+    "changeset": "changeset"
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2",
+    "turbo": "^2.5.5",
+    "typescript": "5.8.3"
+  },
+  "packageManager": "pnpm@9.0.0",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@changesets/cli": "^2.29.5"
+  }
+}
